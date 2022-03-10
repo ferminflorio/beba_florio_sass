@@ -1,0 +1,23 @@
+footer {
+	background-color: $black2;
+	position: relative;
+	top: 100%;
+	width: 100%;
+	left: 0;
+	padding: 1rem;
+}
+.footer {
+	display: grid;
+}
+
+.footer_content_list {
+	display: flex;
+	justify-content: center;
+	margin: 0px;
+}
+.footer_content_item {
+	margin: 1rem;
+}
+.rrss:hover {
+	opacity: 0.5;
+}
