@@ -5,6 +5,9 @@
 .navbar {
 	padding-left: 0%;
 }
+.nav-index {
+	background-image: none;
+}
 .main_nav_list {
 	display: grid;
 	grid-template-columns: 1fr;
@@ -19,4 +22,7 @@ li {
 	a:hover {
 		transform: translateX(5px);
 	}
+}
+nav {
+	background-image: linear-gradient(rgb(0, 0, 0), $black);
 }

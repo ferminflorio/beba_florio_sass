@@ -1,4 +1,4 @@
-footer {
+@mixin footer-data {
 	background-color: $black2;
 	position: relative;
 	top: 100%;
@@ -6,8 +6,8 @@ footer {
 	left: 0;
 	padding: 1rem;
 }
-.footer {
-	display: grid;
+.footer-data {
+	@include footer-data;
 }
 
 .footer_content_list {
@@ -20,4 +20,5 @@ footer {
 }
 .rrss:hover {
 	opacity: 0.5;
+	transition: transform 0.2s ease-out;
 }

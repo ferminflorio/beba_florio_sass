@@ -9,10 +9,15 @@ body {
 	margin: 0;
 	min-height: 100vh;
 }
+$main-data: (
+	fondo: $black,
+	pad-botton: 100px,
+	pad-top: 50px,
+);
 main {
-	background-color: $black;
-	padding-bottom: 100px;
-	padding-top: 50px;
+	background-color: map-get($main-data, fondo);
+	padding-bottom: map-get($main-data, pad-botton);
+	padding-top: map-get($main-data, pad-top);
 }
 
 .body_index {
@@ -39,13 +44,9 @@ a {
 h1 {
 	color: $purple;
 	margin: none;
-	background-color: rgb(0, 0, 0);
+	background-color: $black3;
 }
 
 h2 {
 	color: $yellow;
-}
-
-h4 {
-	margin-bottom: 0px;
 }
